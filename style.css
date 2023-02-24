@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;;
+}
+
+#root {
+    display: flex;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    height: 100vh;
+    background-color: #0C8487;
+    color: #FFFFFF;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    background-color: #F5F5F5;
+}
+
+.first {
+    display: flex;
+    margin: 1.5em;
+}
+
+.second {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2em;
+    margin-left: 1.5em;
+}
+
+.third {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 3em;
+    margin-left: 1.5em;
+}
+
+.menu-items {
+    margin-bottom: 1em;
+}
+
+.setting-icon {
+    margin-bottom: 1em;
+}
+
+.right-first {
+    display: flex;
+    flex-direction: row;
+    background: #FFFFFF;
+    margin-top: 1em;
+    padding: 1.5em;
+    margin-left: 5px;
+    box-shadow: 0px 5px 15px rgba(26, 91, 159, 0.05);
+    align-items: center;
+}
+
+.right-second {
+    display: flex;
+    flex-direction: row;
+    background: #FFFFFF;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: 3em;
+    box-sizing: border-box;
+    border-radius: 15px;
+    border: 1px solid rgba(38, 50, 60, 0.08);
+    box-shadow: 0px 5px 15px rgba(26, 91, 159, 0.05);
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.right-third {
+    display: flex;
+    flex-direction: row;
+    margin: 1em 2em;
+}
+
+form.nosubmit {
+    border: none;
+    padding: 0;
+}
+
+input.nosubmit {
+    width: 260px;
+    border: none;
+    outline: none;
+}
+
+.middle {
+    display: flex;
+    flex-direction: row;
+    border-right: 2px solid #26323C;
+}
+
+.profile {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    right: 1em;
+    align-items: center;
+}
+
+.mg-left {
+    margin-left: 2em;
+}
+
+.mg-right {
+    margin-right: 2em;
+}
+
+.mg-left-1 {
+    margin-left: 1em;
+}
+
+img {
+    width: 60px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.acc {
+    margin: 1em 2em;
+}
+
+.op-items {
+    padding: 1.2em;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+.op-items:hover {
+    border-bottom: 1px solid black;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: row;
+    background: #FFFFFF;
+}
